@@ -141,6 +141,7 @@ export default function HideAppBar(props: Props) {
                 </Typography>
             </main>
             <Drawer
+                PaperProps={{ elevation: 10 }}
                 className={classes.drawer}
                 variant="persistent"
                 anchor="right"
